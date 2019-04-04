@@ -1,0 +1,21 @@
+/* eslint-disable no-unused-vars */
+const luckyLearning = [
+  'Practice callback functions',
+  'Filter method in Javascript',
+  'Learn front-end with React',
+  'Learn front-end with Vue',
+  'Learn blockchain programming with Solidity',
+  'code with TeamTreeHouse',
+  'Practice ES6',
+  'Work on Math method',
+  'Practice loops',
+  'Go to code in a local cafe',
+  'Find a student at Salt to do pair programming',
+  'Code with FreeCodeCamp',
+  'Fetch an API',
+  'Practice on TDD',
+  'Study a new Framework',
+  'Code an interactive website with only CSS',
+  'Work on git commands',
+  "Read the book 'Programming Bitcoin'",
+];

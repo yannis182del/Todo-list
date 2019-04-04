@@ -1,0 +1,24 @@
+{
+  "name": "salt-winter19-todo",
+  "version": "1.0.0",
+  "description": "Todo list app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+ 
+  "keywords": [
+    "todolist"
+  ],
+  "author": "Yannis",
+  "license": "ISC",
+  "bugs": {
+  
+  },
+ 
+  "devDependencies": {
+    "eslint": "^5.15.3",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0"
+  }
+}

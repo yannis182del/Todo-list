@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>&lt;/salt&gt; :: ToDo</title>
+    <link rel="stylesheet" type="text/css" href="style/todo.css" />
+  </head>
+  <body>
+    <header>
+      <h1>The <span class="salt">&lt;/salt&gt</span> Web Dev To-do App</h1>
+      <h2>Minimalist todo app for Full Stack Developers.</h2>
+      <h4>Enter the keywords react, vue or javascript to sort by colors.</h4>
+      <div class="dev-icon">
+        <a target="_blank" href="https://github.com/yannis182del"
+          ><i class="fab fa-github fa-2x"></i
+        ></a>
+        <i class="fab fa-js-square fa-2x"></i>
+        <i class="fab fa-react fa-2x"></i>
+        <i class="fab fa-vuejs fa-2x"></i>
+        <i class="fab fa-node fa-2x"></i>
+      </div>
+      <button id="random-buttom" onclick="randomLearning()">
+          no Inspirations ? <i   class="far fa-lightbulb"></i>
+        </button>
+        <button id="remove-storage" >Remove Storage <i  class="far fa-trash-alt"></i></button>
+      </div>
+    </header>
+    <div>
+    <div class="contain">
+    <div class="form-input">
+      <form>
+        <input
+          class="content"
+          size="49"
+          type="text"
+          name="todo"
+          placeholder="What are you planning today ? "
+          />   
+         
+          <button id="todo-button">Add <i class="fas fa-check"></i></button>
+      </form>
+  
+    </div>
+    <div class="container">
+      <ul></ul>
+    </div>
+  </div>
+    <script src="js/index.js"></script>
+    <script src="js/luckyLearning.js"></script>
+    <script src="js/arraysOfTodo.js"></script>
+    <script src="js/localStorage.js"></script>
+   
+  </body>
+</html>
+
